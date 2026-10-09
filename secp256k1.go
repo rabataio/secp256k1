@@ -1,5 +1,7 @@
 package secp256k1
 
+//go:generate ./gen_namespace.sh
+
 /*
 #cgo CFLAGS: -Isrc
 #define USE_BASIC_CONFIG
